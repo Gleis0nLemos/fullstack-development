@@ -166,15 +166,17 @@ body {
 }
 
 .container-contatos h1 {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 3em;
     color: white;
     margin-bottom: 20px;
 }
 
 .container-contatos h3 {
-    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;   
     font-weight: 100px;
-    width: 40%;
+    width: 50%;
     margin: auto;
     color: white;
     margin-bottom: 20px;
@@ -188,7 +190,7 @@ body {
     float: center;
     margin: auto;
     background-color: #061f35;
-    width: 40%;
+    width: 50%;
     padding: 20px;
     border: 1px solid #105088;
     border-radius: 10px;
