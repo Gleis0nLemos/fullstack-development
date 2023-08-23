@@ -26,15 +26,10 @@
 <body>
 
     <div class="form-container">
+        <h3>Formulário</h3>
         <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
-            <h3>Formulário</h3>
-
-            <div class="form-group">
-                <label>
-                    <input type="range" name="campo_intervalo" min="0" max="1000" step="100" value="1000" oninput="mostrar(this.value)">
-                    <p id="valor_range"></p>
-                </label>
-            </div>
+            
+            <input type="hidden" name="campo_escondido" value="escondido">
 
             <!-- submit -->
             <div class="form-group">
