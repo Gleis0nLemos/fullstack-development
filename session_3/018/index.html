@@ -29,7 +29,24 @@
         <h3>Formulário</h3>
         <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
             
-            <input type="hidden" name="campo_escondido" value="escondido">
+            <div class="form-group">
+                <label>Selecione uma opção:</label>
+                <select name="campo_selecao" id="" required>
+                    <optgroup label="paises">
+                        <option value="pt">Portugal</option>
+                        <option value="br">Brasil</option>
+                        <option value="ao">Angola</option>
+                        <option value="mc">Moçambique</option>
+                        <option value="cv">cabo Verde</option>
+                    </optgroup>
+
+                    <optgroup label="outros países">
+                        <option value="fr">França</option>
+                        <option value="de">Alemanha</option>
+                        <option value="es">Espanha</option>
+                    </optgroup>
+                </select>
+            </div>
 
             <!-- submit -->
             <div class="form-group">
