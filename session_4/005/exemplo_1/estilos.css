@@ -1,0 +1,12 @@
+/* folha de estilos de CSS3 */
+
+
+@font-face {
+    font-family: "Orbitron";
+    src: url("fonts/Orbitron.ttf");
+}
+
+.nova-letra {
+    font-family: "Orbitron";
+    font-size: 24px;
+}
