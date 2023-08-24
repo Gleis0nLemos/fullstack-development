@@ -29,20 +29,41 @@
         <h3>Formulário</h3>
         <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
 
-            <fieldset disabled>
-                <legend>Dados pessoais</legend>
-                <div class="form-group">
-                    <label for="">Nome</label>
-                    <input type="text" name="" id=""> 
-                </div>
-                <div class="form-group">
-                    <label for="">Apelido</label>
-                    <input type="text" name="" id=""> 
-                </div>
-            </fieldset>
+            <div class="form-group">
+                <label for="campo-senha">Usuário:</label>
+                <input type="text" name="campo_usuario" id="campo-usuario" required>
+            </div>
+
+            <div class="form-group">
+                <label for="campo-senha">Senha:</label>
+                <input type="password" name="campo_senha" id="campo-senha" required>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="opcao" id="" checked>
+                    Opção 1
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="opcao" id="">
+                    Opção 2
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="radio" name="opcao" id="">
+                    Opção 3
+                </label>
+            </div>
 
             <!-- submit -->
             <div class="form-group">
+                <button type="button">Botão</button>
+                <input type="reset" value="Limpar" accesskey="l" title="Ctrol + L">
                 <input type="submit" value="Enviar">
             </div>
         </form>
