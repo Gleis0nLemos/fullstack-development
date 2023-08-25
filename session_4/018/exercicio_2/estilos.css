@@ -1,0 +1,9 @@
+/* folha de estilos de CSS3 */
+
+.posicao {
+    position: absolute;
+    padding: 20px;
+    background-color: yellow;
+    bottom: 100px;
+    right: 50px;
+}
