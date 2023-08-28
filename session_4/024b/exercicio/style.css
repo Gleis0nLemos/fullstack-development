@@ -1,0 +1,59 @@
+/* arquivo de estilos */
+
+/* ------------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* ------------------------------- */
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5733;
+    color: white;
+    height: 10%;   
+}
+
+/* ------------------------------- */
+/* sections */
+
+section {
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    text-align: center;
+    height: 80%;
+    color: white;
+}
+
+section > .left{
+    background-color: #3385FF;
+    width: 20%;
+}
+
+section > .main{    
+    background-color: #4A235A;
+    width: 60%;
+}
+
+section > .right{
+    background-color: green;
+    width: 20%;
+}
+
+/* ------------------------------- */
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF33CA;
+    color: white;
+    height: 10%;   
+}
