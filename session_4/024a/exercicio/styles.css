@@ -45,24 +45,28 @@ nav {
 /* body */
 
 .social-media {
-    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 20px;
     background-color: rgb(14, 13, 13);
     padding-bottom: 50px;
 }
 .social-link {
     background-color: rgb(32, 32, 32);
-    display: inline-block;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     padding: 20px;
     border: 1px solid grey;
-    margin: 120px;
-    margin-top: 50px;
+    margin: 50px 0;
     width: auto;
     padding-bottom: 200px;
     border-radius: 5px;
 }
 
 .social-link p {
-    text-align: center;
     color: white;
     padding-top: 20px;
     font-size: small;
@@ -70,17 +74,22 @@ nav {
 
 .social-link img {
     width: 30px;
-    height: auto;
 }
 
 /* ------------------------------- */
 /* footer */
 
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
 .footer {
     background-color: black;
     color: grey;
     text-align: center;
-    padding: 30px;
     padding-bottom: 100px;
 }
 
