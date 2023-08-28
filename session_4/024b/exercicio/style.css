@@ -25,6 +25,7 @@ header {
 section {
     display:flex;
     flex-flow: row nowrap;
+    justify-content: center;
     align-items: stretch;
     text-align: center;
     height: 80%;
@@ -33,17 +34,20 @@ section {
 
 section > .left{
     background-color: #3385FF;
-    width: 20%;
+    flex-grow: 2;
+    /* width: 20%; */
 }
 
 section > .main{    
     background-color: #4A235A;
-    width: 60%;
+    flex-grow: 8;
+    /* width: 60%; */
 }
 
 section > .right{
     background-color: green;
-    width: 20%;
+    flex-grow: 2;
+    /* width: 20%; */
 }
 
 /* ------------------------------- */
