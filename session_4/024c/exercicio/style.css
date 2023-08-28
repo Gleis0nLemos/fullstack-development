@@ -1,0 +1,89 @@
+/* arquivo de estilos */
+
+/* ------------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(290deg, #A533FF 35%, #33FDFF);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* ------------------------------- */
+/* form */
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    padding-bottom: 20px;
+    height: auto;
+    margin: 200px auto;
+    padding: 20px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    margin-left: 90%;
+    text-decoration: none;
+}
+
+form h2 {
+    margin: 0;
+    color: black;
+    font: bold;
+}
+
+form h1 {
+    font-size: 30px;
+}
+
+.form-group {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-group input{
+   display: flex;
+   justify-content: center;
+   flex-flow: column nowrap;
+   padding: 5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   border: 1px solid rgb(221, 216, 216);
+}
+
+.button {
+    display: flex;
+    justify-content: left;
+    margin-left: 9%;
+    width: 100%;
+    padding: 20px;
+}
+
+.button input {
+    display: block;
+    background: linear-gradient(290deg, #A533FF 35%, #33FDFF);
+    border: none;
+    width: 180%;
+    padding: 8px;
+    color: white;
+    border-radius: 2px;
+}
+
+span {
+    color: #047988;
+    font: bold;
+    font-size: 12px;
+}
