@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template: 
+    [row1-start] "header header " 15vh [row1-end]
+    [row2-start] "aside article" auto [row2-end]
+    [row3-start] "footer footer" 10vh [row3-end]
+    / 25vw auto;
+    grid-gap: 10px;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(28, 52, 63);
+    padding: 20px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: rgb(87, 87, 21);
+    padding: 20px;
+}
+
+article {
+    grid-area: article;
+    display: grid;
+    grid-template: 
+    [row1-start] "article article article" 15vh [row1-end]
+    [row2-start] "image image image" auto [row2-end]
+    /1fr 2fr 1fr;
+    grid-gap: 10px;
+    background-color: rgb(248, 244, 221);
+    color: black;
+    padding: 20px;
+}
+
+article p {
+    grid-area: article;
+    color: black;
+}
+
+article div {
+    background-color: rgb(66, 64, 71);
+    height: 20vh;
+    align-self: end;
+    padding: 20px;
+}   
+
+footer {
+    grid-area: footer;
+    background-color: black;
+    padding: 20px;
+}
