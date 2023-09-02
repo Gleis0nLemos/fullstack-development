@@ -60,5 +60,5 @@ for(iniciação; condição; incremento){
 // --------------------------------
 // ciclo FOREACH
 // --------------------------------
-// let nomes = ["joao", "ana", "carlos"]
-// nomes.forEach((n) => console.log(n))
+let nomes = ["joao", "ana", "carlos"]
+nomes.forEach((n) => console.log(n))
