@@ -8,7 +8,7 @@ document.querySelector('input[name="usuario"]').addEventListener('keyup', () => 
 })
 
 // senha
-document.querySelector('input[name="usuario"]').addEventListener('keyup', () => {
+document.querySelector('input[name="senha"]').addEventListener('keyup', () => {
     if(document.querySelector('input[name="senha"] + span') !== null) {
         document.querySelector('input[name="senha"] + span').remove()
     }
