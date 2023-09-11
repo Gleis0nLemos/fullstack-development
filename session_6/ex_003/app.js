@@ -50,7 +50,7 @@ document.querySelector("#btn_decremento").addEventListener('click', (event) => {
     set_valor()
 })
 
-function set_valor()
+function set_valor() {
 
     h1_valor.textContent = valor
 
@@ -60,3 +60,4 @@ function set_valor()
 
     let color = valor == 0 ? 'white' : valor < 0 ? 'red' : 'green'
     h1_valor.style.color = color
+}
