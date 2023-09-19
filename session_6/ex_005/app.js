@@ -38,6 +38,6 @@ for (let r = 1; r <= 3; r++) {
     el.setAttribute('max', 100)
     el.value = 0
     el.addEventListener('input', (event) => {
-        document.querySelector('value_' + r).textContent = event.target.value
-    })
+        document.querySelector('#value_' + r).textContent = event.target.value
+    });
 }
