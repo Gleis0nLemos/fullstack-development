@@ -7,21 +7,21 @@ Enunciado:
 
 // MINHA RESOLUÇÃO
 
-const tabButtons = document.querySelectorAll('[id^="tab"]');
-const infoElements = document.querySelectorAll('[id^="info"]');
+// const tabButtons = document.querySelectorAll('[id^="tab"]');
+// const infoElements = document.querySelectorAll('[id^="info"]');
 
-tabButtons.forEach((button, index) => {
-    button.addEventListener('click', () => {
-        infoElements.forEach((element) => element.classList.add("d-none"));
-        infoElements[index].classList.remove("d-none");
-    });
-});
+// tabButtons.forEach((button, index) => {
+//     button.addEventListener('click', () => {
+//         infoElements.forEach((element) => element.classList.add("d-none"));
+//         infoElements[index].classList.remove("d-none");
+//     });
+// });
 
-infoElements.forEach((element, index) => {
-    if (index !== 0) {
-        element.classList.add("d-none");
-    }
-});
+// infoElements.forEach((element, index) => {
+//     if (index !== 0) {
+//         element.classList.add("d-none");
+//     }
+// });
 
 // RESOLUÇÃO DO PROFESSOR
 

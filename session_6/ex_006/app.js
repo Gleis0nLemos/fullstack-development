@@ -53,6 +53,6 @@ document.querySelectorAll('[id^="tab"]').forEach((btn) => {
         show_tab(btn.target.id.substring(3))
     })
 }) 
-
+ 
 hide_all()
 show_tab(1)
