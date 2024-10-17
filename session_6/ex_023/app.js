@@ -21,3 +21,12 @@ document.querySelector('#none').addEventListener('click', () => {
     checkboxes.forEach(checkbox => checkbox.checked = false);
 });
 
+// RESOLUÇÃO DO PROFESSOR
+
+// document.querySelector('#all').addEventListener('click', () => {
+//     document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => checkbox.checked = true);
+// });
+
+// document.querySelector('#none').addEventListener('click', () => {
+//     document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => checkbox.checked = false);
+// });
