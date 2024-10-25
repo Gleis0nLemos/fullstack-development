@@ -1,0 +1,10 @@
+[class^="col"] {
+  background-color: lightgreen;
+  padding: 10px;
+  font-size: x-large;
+  border: 0.1px solid gray;
+}
+
+.row {
+  background-color: lightgrey;
+}
