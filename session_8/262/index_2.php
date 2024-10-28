@@ -24,4 +24,4 @@
   $nomes_parte = array_slice($nomes, 2); // ["carlos", "francisco", "cristina"]
 
   // funções para arrays em PHP:
-  // https://www.php.net/manual/en/array.php
+  // https://www.php.net/manual/en/ref.array.php
